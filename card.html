@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.card {
+			border: 2px solid black;
+			width: 40%;
+		}
+
+		.card:hover {
+			box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+		}
+
+		.container {
+			padding: 2px 16px;
+		}
+
+		input[type=text] {
+			border: none;
+			border-bottom: 2px solid black;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="card" style="padding: 10px;">
+		<h2 style="text-align: center;margin-top: 0px;background-color: red;padding: 0px 5px 0px 5px;color: white;">Yes! I want to
+				subscribe to <i>Mag-O-Zine</i></span></h2>
+				<div style="padding: 0px 10px 0px 10px;">
+		<table>
+			<tr>
+				<td>
+					<input type="text" id="fname" name="fname" value="Joe"><br>
+					<label for="fname">First name:</label>
+				</td>
+				<td colspan="2">
+					<input type="text" id="lname" name="lname" value="Sehmegeggie"><br>
+					<label for="lname">Last name:</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="text" id="address" name="address" value="1001 Washington Street" style="width: 90%;"><br>
+					<label for="address">Address:</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" id="city" name="city" value="Seatle" style="width: 70%;"><br>
+					<label for="city">City:</label>
+				</td>
+				<td>
+					<input type="text" id="state" name="state" value="US" style="width: 70%;"><br>
+					<label for="state">State:</label>
+				</td>
+				<td>
+					<input type="text" id="zip" name="zip" value="9999" style="width: 70%;"><br>
+					<label for="zip">Zip:</label><br>
+				</td>
+			</tr>
+		</table>
+		<div class="inputst" style="font-weight: bold;">
+		<label>Subscribe for:</label>
+		<input type="checkbox" id="subject1" name="subject1" value="Bike">
+		<label for="html">1 year ($19.95)</label>
+		<input type="checkbox" id="subject2" name="subject2" value="Car">
+		<label for="css">2 years ($35.00)</label><br>
+		<label>Send me more information about:</label><br>
+		<input type="checkbox" id="subject1" name="subject1" value="Bike">
+		<label for="html">Computer-Zine</label><br>
+		<input type="checkbox" id="subject2" name="subject2" value="Car">
+		<label for="css">Fishing-Zine</label><br>
+		<input type="checkbox" id="subject3" name="subject3" value="Boat">
+		<label for="bootstrap">Cat-O-Zine</label><br><br>
+	</div>
+	</div>
+	</div>
+
+</body>
+
+</html>
